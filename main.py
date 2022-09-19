@@ -10,6 +10,7 @@ roaming = os.getenv("APPDATA")
 walk = os.walk(roaming)
 list_file = []
 
+#make sure the extension starts with .YOUR_EXTENSION
 extensions = ".dll" # Enter your file extension here
 
 
